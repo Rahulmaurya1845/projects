@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Maurya a Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(31, 31, 114);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(113, 66, 98);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+}
+nav ul li :hover{
+    color: aquamarine;
+    font-size: 1.04rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+
+}
+.firstsec >div{
+    width: 30%;
+  
+}
+.leftsec{
+    font-size: 3rem;
+}
+.rightsec img{
+   width: 120%;
+ 
+}
+.purple{
+    color: rgb(18, 134, 39);
+}
+#element{
+    color: rgb(18, 134, 39);
+}
+.secondsec{
+    max-width:  123vh;
+    margin: auto;
+}
+.secondsec{
+    font-size: 1.9rem;
+}
+.secondsec .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsec .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.imagetop{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.verticaltitle{
+position: relative;
+top: 75px;
+width: 150px;
+font-size: 30px;
+}
+.verticaldesc{
+position: relative;
+top: 86px;
+color: wheat;
+width: 150px;
+font-size: 20px;
+
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Rahul's Port-folio</div>
+            <div class="right">
+                <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Past Projects</li>
+                <li>Contact Me</li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+            <section class="firstsec">
+                <div class="leftsec">
+                    Hii my name is <span class="purple">Rahul</span>
+                    <div>
+                        I am a passionate
+                    </div>
+                    <div>Software Engineer</div>
+                    <span id="element"></span>
+                </div>
+                <div class="rightsec">
+                   <img src="image2.png" alt="">
+                </div>
+            </section>
+            <hr>
+           <section class="secondsec">
+            <span class="gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                  <img class="imagetop"src="image3.jpeg" alt=""> 
+                  <div class="verticaltitle">
+                    DSA in Java
+                  </div>                    
+                  <div class="verticaldesc">
+                    I am very passionate about my career  my univesity rank on geeks gor geeks are five and i also practice problem on leetcode  and almost solve more than 500 problem with all category on geeks for geeks
+                  </div>
+                </div>
+                    <div class="vertical">
+                        <img class="imagetop"src="image3.jpeg" alt=""> 
+                        <div class="verticaltitle">
+                            Web Development
+                        </div>
+                        <div class="verticaldesc">
+                         I am very curious regarding our project and always try to done more projects i have done projects like calculator,stopwatch,guessing number using java,stopwatch and many more
+                         and also learn MySQL,React.js,python etc...
+                        </div>
+                </div>
+                <div class="vertical">
+                    <img class="imagetop"src="image3.jpeg"> 
+                    <div class="verticaltitle">
+                    Internship
+                    </div>                    
+                    <div class="verticaldesc">
+                      I have done many online internship like I also done intenship in YBL in machine learning and artificial intelligence and also done internship in Infobyte,internshala,edureka etc.... 
+                    </div>
+            </div>
+           </section>
+            
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Problem Solving Skill','Java','Python','React.js'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
